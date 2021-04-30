@@ -129,3 +129,5 @@ dmypy.json
 .pyre/
 
 Docker/svg2imageset.py
+Docker/test
+

@@ -6,12 +6,14 @@ MAINTAINER golden_slime@hotmail.com
 RUN apk add musl-dev gcc libffi-dev zlib-dev jpeg-dev cairo
 RUN pip3 install cairosvg
 
-COPY svg2imageset.py /opt/svg2imageset/
+COPY svg2imageset.py entry.sh /opt/svg2imageset/
 
 # change work directory
 WORKDIR /opt/svg2imageset
 
-CMD [ "python", "./svg2imageset.py" ]
+COPY entry.sh /usr/bin/
+RUN chmod +x /usr/bin/entry.sh
 
+ENTRYPOINT ["entry.sh"]
 
 

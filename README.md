@@ -22,7 +22,7 @@ usage: python3 svg2imageset.py <path-2-svg> <icon-width> [outpath]
 Example:
 
 ```bash
-python3 ./svg2imageset.py test_arrow_circle_down.svg  60 
+$ python3 ./svg2imageset.py test_arrow_circle_down.svg  60 
 ```
 
 I will generate such files...
@@ -35,5 +35,13 @@ test_arrow_circle_down.imageset
 └── test_arrow_circle_down_3x.png
 ```
 
+
+## Docker 
+
+Or just using the prebuilt docker image 
+
+```bash
+$ docker run --rm -v `pwd`:/opt/svg2imageset/ mebusy/svg2imageset  test_arrow_circle_down.svg 60
+```
 
 

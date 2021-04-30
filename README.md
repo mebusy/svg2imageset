@@ -14,6 +14,9 @@ python3 script to convert SVG to iOS .imageset
 
 ```bash
 usage: python3 svg2imageset.py <path-2-svg> <icon-width> [outpath]
+
+@ icon-width: specify the output width of the @1x png image
+@ outpath:  `.` by default
 ```
 
 Example:
@@ -31,5 +34,6 @@ test_arrow_circle_down.imageset
 ├── test_arrow_circle_down_2x.png
 └── test_arrow_circle_down_3x.png
 ```
+
 
 

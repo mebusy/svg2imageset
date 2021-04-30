@@ -1,0 +1,23 @@
+{
+    "info": {
+        "author": "xcode",
+        "version": 1
+    },
+    "images": [
+        {
+            "filename": "test_arrow_circle_down.png",
+            "idiom": "universal",
+            "scale": "1x"
+        },
+        {
+            "filename": "test_arrow_circle_down_2x.png",
+            "idiom": "universal",
+            "scale": "2x"
+        },
+        {
+            "filename": "test_arrow_circle_down_3x.png",
+            "idiom": "universal",
+            "scale": "3x"
+        }
+    ]
+}

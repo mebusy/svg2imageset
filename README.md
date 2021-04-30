@@ -12,4 +12,24 @@ python3 script to convert SVG to iOS .imageset
 
 ## Usage
 
+```bash
+usage: python3 svg2imageset.py <path-2-svg> <icon-width> [outpath]
+```
+
+Example:
+
+```bash
+python3 ./svg2imageset.py test_arrow_circle_down.svg  60 
+```
+
+I will generate such files...
+
+```bash
+test_arrow_circle_down.imageset
+├── Contents.json
+├── test_arrow_circle_down.png
+├── test_arrow_circle_down_2x.png
+└── test_arrow_circle_down_3x.png
+```
+
 
